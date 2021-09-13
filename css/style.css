@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #000000;
+}
+
+.container {
+    background: #c9e0f8; 
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 60px 0;
+    border-radius: 15px ;
+}
+
+.timerDisplay {
+    position: relative;
+    width: 110%;
+    background: linear-gradient(-135deg, #031d35, rgb(3, 14, 119));
+    left: -5%;
+    padding: 40px 0;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 139, 253, 0.425);
+}
+
+.buttons {
+    width: 80%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    padding: 15px 30px;
+    background-color: #fff;
+}
