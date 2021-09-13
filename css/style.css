@@ -9,6 +9,7 @@ body{
     background: #000000;
 }
 
+/* Fundo ======================= */
 .container {
     background: #c9e0f8; 
     width: 40%;
@@ -21,6 +22,7 @@ body{
     border-radius: 15px ;
 }
 
+/* Relógio =================== */
 .timerDisplay {
     position: relative;
     width: 110%;
@@ -37,6 +39,7 @@ body{
     box-shadow: 0 0 20px rgba(0, 139, 253, 0.425);
 }
 
+/* Botões ================== */
 .buttons {
     width: 80%;
     margin: 60px auto 0 auto;
@@ -46,5 +49,39 @@ body{
 
 .buttons button {
     padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#startTimer {
+    background-color: rgb(35, 114, 4);
+    color: #fff;
+}
+
+#startTimer:hover {
+    background-color: rgb(51, 180, 0);
+    color: #fff;
+}
+
+#pauseTimer {
+    background-color: rgb(3, 14, 119);
+    color: #fff;
+}
+
+#pauseTimer:hover {
+    background-color: rgb(2, 21, 192);
+    color: #fff;
+}
+
+#resetTimer {
     background-color: #fff;
+    color: rgb(3, 14, 119);
+}
+
+#resetTimer:hover {
+    background-color: rgb(112, 5, 5);
+    color: #fff;
 }
