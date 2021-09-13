@@ -53,6 +53,7 @@ body{
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
+    outline: none;
     transition: 1s;
 }
 
